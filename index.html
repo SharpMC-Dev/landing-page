@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/landing.css" />
+    <link rel="stylesheet" href="./styles/core.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+    <title>SharpMC | Home</title>
+  </head>
+  <body>
+    <div class="mid">
+      <div class="logo">
+        <img id="logo" src="./assets/logo.png" />
+      </div>
+      <h2 id="version">SharpMC</h2>
+      <div class="ip">
+        <div id="ip-modal">
+          <p id="ip-modal-text">Click to Copy</p>
+          <div id="nub"></div>
+        </div>
+        <h2 id="ip">play.sharpmc.org</h2>
+      </div>
+      <div class="icons">
+        <div class="icon-container" onclick="navigate('discord')">
+          <a rel="noopener noreferrer">
+            <img class="icon" src="./assets/discord_icon.png" alt="Discord" />
+          </a>
+        </div>
+        <div class="icon-container" onclick="navigate('store')">
+          <a target="_blank" rel="noopener noreferrer">
+            <img class="icon" src="./assets/cart_icon.png" alt="Store" />
+          </a>
+        </div>
+        <div class="icon-container" onclick="navigate('forums')">
+          <a rel="noopener noreferrer">
+            <img class="icon" src="./assets/forum_icon.png" alt="Forums" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="./scripts/landing.js"></script>
+  </body>
+</html>
