@@ -2,6 +2,12 @@ const ip = document.getElementById('ip');
 const modal = document.getElementById('ip-modal');
 const modalText = document.getElementById('ip-modal-text');
 
+let slugs = {
+  'discord': 'https://discord.gg/wZugzkCPSV',
+  'store': 'https://store.sharpmc.org',
+  'forums': '#',
+};
+
 ip.onmouseover = event => {
   modal.style.visibility = 'visible';
 };
@@ -11,8 +17,6 @@ ip.onmouseout = event => {
 };
 
 ip.onclick = event => {
-  //   if (!event.target.matches('#ip')) return;
-
   if (!navigator.clipboard) return;
 
   try {
@@ -26,11 +30,5 @@ ip.onclick = event => {
 };
 
 function navigate(slug) {
-  let slugs = {
-    'discord': 'https://discord.gg/wZugzkCPSV',
-    'store': 'https://store.sharpmc.org',
-    'forums': '#',
-  };
-
   window.location = slugs[slug];
 }
