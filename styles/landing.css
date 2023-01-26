@@ -5,6 +5,10 @@
 
 body {
   background-image: url('../assets/bg.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-origin: 0 0;
   background-repeat: space;
   font-family: 'IBM Plex Mono', monospace;
