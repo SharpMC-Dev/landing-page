@@ -3,7 +3,7 @@ const modal = document.getElementById('ip-modal');
 const modalText = document.getElementById('ip-modal-text');
 
 let slugs = {
-  'discord': 'https://discord.gg/wZugzkCPSV',
+  'discord': 'https://discord.gg/QvuTmzUnxG',
   'store': 'https://store.sharpmc.org',
   'forums': '#',
 };
