@@ -1,8 +1,8 @@
 window.onload = () => redirect(window.location);
 let slugs = {
-  'discord': 'https://discord.gg/QvuTmzUnxG',
+  'discord': 'https://sharpmc.org/discord',
   'store': 'https://store.sharpmc.org',
-  'forums': '#',
+  'forums': 'https://forums.sharpmc.org',
 };
 
 function navigate(slug) {
