@@ -3,9 +3,9 @@ const modal = document.getElementById('ip-modal');
 const modalText = document.getElementById('ip-modal-text');
 
 let slugs = {
-  'discord': 'https://discord.gg/QvuTmzUnxG',
+  'discord': 'https://sharpmc.org/discord',
   'store': 'https://store.sharpmc.org',
-  'forums': '#',
+  'forums': 'https://forums.sharpmc.org',
 };
 
 ip.onmouseover = event => {
