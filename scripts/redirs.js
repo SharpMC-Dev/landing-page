@@ -3,6 +3,7 @@ let slugs = {
   'discord': 'https://sharpmc.org/discord',
   'store': 'https://store.sharpmc.org',
   'forums': 'https://forums.sharpmc.org',
+  'vote': 'https://vote.sharpmc.org',
 };
 
 function navigate(slug) {
